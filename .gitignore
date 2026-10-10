@@ -1,0 +1,35 @@
+# Virtual environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Next.js & Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.npm
+npm-debug.log*
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Hugging Face & Torch caches
+.cache/
+hf_cache/
+*.bin
+*.safetensors
+*.pt
+
+# Uploaded documents (don't commit test uploads)
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
